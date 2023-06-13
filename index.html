@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GuessMaster</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GuessMaster</h1>
+    <div id="stage-info">
+      <h2>Stage 1</h2>
+      <p>Difficulty: <span id="difficulty">Easy</span></p>
+      <p>Guess a number between 1 and 10.</p>
+    </div>
+    <input type="number" id="guess-input" placeholder="Enter your guess">
+    <button id="guess-btn">Guess</button>
+    <div id="feedback-text"></div>
+    <div id="player-stats">
+      <p>Player Wins: <span id="human-wins">0</span></p>
+      <p>Computer Wins: <span id="computer-wins">0</span></p>
+    </div>
+    <div id="difficulty-buttons">
+      <button id="easy-btn">Easy</button>
+      <button id="medium-btn">Medium</button>
+      <button id="hard-btn">Hard</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
